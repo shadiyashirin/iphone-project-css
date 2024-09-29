@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product detail page</title>
+    <link rel="stylesheet" href="./productdetail.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./images/Logo Vector.png">
+        </div>
+        <input class="search" type="text" name="search" placeholder="search">
+        
+        <ul id="menulist">
+            <li><a href="#">Home</a></li>
+            <li><a class="gr" href="#">About</a></li>
+            <li><a class="gr" href="#">Contact Us</a></li>
+            <li><a class="gr" href="#">Blog</a></li>
+        </ul>
+        <div class="icons">
+            <img src="./images/Favorites.png">
+            <img src="./images/Cart1.png">
+            <img src="./images/User.png">
+        </div>
+    </nav>
+    <div class="breadcrumps">
+        <p class="gr">Home</p>
+        <img class="gr" src="./images/Arrow (2).png">
+        <p class="gr">Catalog</p>
+        <img class="gr" src="./images/Arrow (2).png">
+        <p class="gr">Smartphones</p>
+        <img class="gr" src="./images/Arrow (2).png">
+        <p class="gr">Apps</p>
+        <img class="gr" src="./images/Arrow (2).png">
+        <p class="bl">Iphone 14 pro Max</p>
+    </div>
+    <div class="maininfo">
+        <div class="images">
+            <div class="small">
+                <img src="./images/image 57.png">
+                <img src="./images/image 61.png">
+                <img src="./images/image 62.png">
+                <img src="./images/image 63.png">
+            </div>
+            <div class="lrge">
+                <img src="./images/Image.png">
+            </div>
+        </div>
+        <div class="info">
+            <div class="content">
+                <div class="title">
+                    <p class="head">Apple iPhone 14 Pro Max</p>
+                    <p class="price">$1399  <span>$1499</span></p>
+                </div>
+                <div class="in">
+                    <div class="colors">
+                        <p>Select color :</p>
+                        <img src="./images/Ellipse 12.png">
+                        <img src="./images/Ellipse 13.png">
+                        <img src="./images/Ellipse 15.png">
+                        <img src="./images/Ellipse 16.png">
+                        <img src="./images/Ellipse 14.png">
+                    </div>
+                    <div class="tabs">
+                        <div class="tab">
+                            <p>128GB</p>
+                        </div>
+                        <div class="tab">
+                            <p>256GB</p>
+                        </div>
+                        <div class="tab">
+                            <p>512GB</p>
+                        </div>
+                        <div class="tab">
+                            <p>1TB</p>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="detail">
+                            <img src="./images/Screensize.png">
+                            <p class="g">Screen size <span><br>6.7"</span></p>
+                        </div>
+                        <div class="detail">
+                            <img src="./images/smartphone-rotate-2-svgrepo-com 2.png">
+                            <p class="g">CPU<span><br>Apple A16 Bionic </span></p>
+                        </div>
+                        <div class="detail">
+                            <img src="./images/smartphone-rotate-2-svgrepo-com 2 (1).png">
+                            <p class="g">Number of Cores<span><br>6</span></p>
+                        </div>
+                        <div class="detail">
+                            <img src="./images/smartphone-rotate-2-svgrepo-com 2 (2).png">
+                            <p class="g">Main camera<span><br>48-12 -12 MP</span></p>
+                        </div>
+                        <div class="detail">
+                            <img src="./images/smartphone-rotate-2-svgrepo-com 2 (3).png">
+                            <p class="g">Front-camera<span><br>12 MP</span></p>
+                        </div>
+                        <div class="detail">
+                            <img src="./images/smartphone-rotate-2-svgrepo-com 2 (4).png">
+                            <p class="g">Battery capacity<span><br>4323 mAh</span></p>
+                        </div>
+                    </div>
+                    <p class="txt">
+                        Enhanced capabilities thanks toan enlarged display of 6.7 inchesand work without rechargingthroughout the day.
+                        Incredible photosas in weak, yesand in bright lightusing the new systemwith two cameras <span>more...</span>
+                    </p>
+                </div>
+            </div>
+            <div class="btns">
+                <button type="submit" class="wh">Add to Wishlist</button>
+                <button type="submit" class="bla" onclick="goToCart()">Add to Card</button>
+            </div>
+            <div class="ico">
+                <div class="fea">
+                    <div class="ii">
+                        <img src="./images/delivery-truck-svgrepo-com (1) 1.png">
+                    </div>
+                    <p>Free Delivery<span><br> 1-2 day</span></p>
+                </div>
+                <div class="fea">
+                    <div class="ii">
+                    <img src="./images/delivery-truck-svgrepo-com (1) 1.png">
+                    </div>
+                    <p>In Stock <span><br>Today </span></p>
+                </div>
+                <div class="fea">
+                    <div class="ii">
+                        <img src="./images/delivery-truck-svgrepo-com (1) 1.png">
+                    </div>
+                    <p>Guaranteed<span><br>1 year</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="details-div">
+        <div class="det-cont">
+            <p class="det-head">Details</p>
+            <p class="det-para">Just as a book is judged by its cover,
+                the first thing you notice when you pick up a modern smartphone is the display.
+                Nothing surprising, because advanced technologies allow you to
+                practically level the display frames and cutouts for the front camera and speaker,
+                leaving no room for bold design solutions. And how good that in such realities Apple
+                everything is fine with displays. Both critics and mass consumers always praise the
+                quality of the picture provided by the products of the Californian brand.
+                And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.</p>
+            <div class="det-det">
+                <div class="col">
+                    <p>Screen</p>
+                    <div class="lines">
+                        <div class="line">
+                            <p class="left">Screen diagonal</p>
+                            <p class="right">6.7"</p>
+                        </div>
+                        <div class="line">
+                            <p class="left">The screen resolution</p>
+                            <p class="right">2796x1290</p>
+                        </div>
+                        <div class="line">
+                            <p class="left">The screen refresh rate</p>
+                            <p class="right">120 Hz</p>
+                        </div>
+                        <div class="line">
+                            <p class="left">The pixel density</p>
+                            <p class="right">460 ppi</p>
+                        </div>
+                        <div class="line">
+                            <p class="left">Screen type</p>
+                            <p class="right">OLED</p>
+                        </div>
+                        <div class="line">
+                            <p class="left">Additionally</p>
+                            <p class="right lst">Dynamic IslandAlways-On displayHDR displayTrue ToneWide color (P3)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <p>CPU</p>
+                    <div class="lines">
+                        <div class="line">
+                            <p class="left">CPU</p>
+                            <p class="right">A16 Bionic</p>
+                        </div>
+                        <div class="line">
+                            <p class="left">Number of cores</p>
+                            <p class="right">6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-btn">
+                <button class="view">view more<img src="./images/Expand_down_light.png"></button>
+            </div>
+        </div>
+    </div>
+    <div class="review">
+        <div class="top">
+            <p class="rev-txt">Reviews</p>
+            <div class="overall">
+                <div class="overall-left">
+                    <p class="nbr">4.8</p>
+                    <p class="tg">of 125 reviews</p>
+                    <div class="stars">
+                        <img src="./images/Star 1.png">
+                        <img src="./images/Star 1.png">
+                        <img src="./images/Star 1.png">
+                        <img src="./images/Star 1.png">
+                        <img src="./images/Star 5.png">
+                    </div>
+                </div>
+                <div class="schedule">
+                    <div class="level">
+                        <p class="lev-txt">Excellent</p>
+                        <div class="slider">
+                            <div class="rec w1">
+
+                            </div>
+                        </div>
+                        <p class="end">100</p>
+                    </div>
+                    <div class="level">
+                        <p class="lev-txt">Good</p>
+                        <div class="slider">
+                            <div class="rec w2">
+
+                            </div>
+                        </div>
+                        <p class="end">11</p>
+                    </div>
+                    <div class="level">
+                        <p class="lev-txt">Average</p>
+                        <div class="slider">
+                            <div class="rec w3">
+
+                            </div>
+                        </div>
+                        <p class="end">3</p>
+                    </div>
+                    <div class="level">
+                        <p class="lev-txt">Below Average</p>
+                        <div class="slider">
+                            <div class="rec w4">
+
+                            </div>
+                        </div>
+                        <p class="end">8</p>
+                    </div>
+                    <div class="level">
+                        <p class="lev-txt">Poor</p>
+                        <div class="slider">
+                            <div class="rec w5">
+
+                            </div>
+                        </div>
+                        <p class="end">1</p>
+                    </div>
+                </div>
+            </div>
+            <input type="text" class="cmnt" placeholder="Leave comment">
+        </div>
+        <div class="reviews">
+            <div class="rev">
+                <div class="user">
+                    <img src="./images/User Pic.png">
+                </div>
+                <div class="rev-cont">
+                    <div class="title-star">
+                        <div class="tit">
+                            <p class="lev-txt">Grace Carey</p>
+                            <p class="gr">24 January,2023</p>
+                        </div>
+                        <div class="star">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 5 (2).png">
+                        </div>
+                    </div>
+                    <p class="g">I was a bit nervous to be buying a secondhand phone from Amazon,
+                    but I couldn’t be happier with my purchase!!
+                    I have a pre-paid data plan so I was worried that this phone wouldn’t connect with my data plan,
+                    since the new phones don’t have the physical Sim tray anymore,
+                    but couldn’t have been easier! I bought an Unlocked black iPhone 14 Pro Max in excellent
+                    condition and everything is PERFECT. It was super easy to set up and the phone works and looks great.
+                    It truly was in excellent condition.
+                    Highly recommend!!!🖤</p>
+                </div>
+            </div>
+            <div class="rev">
+                <div class="user">
+                    <img src="./images/User Pic (1).png">
+                </div>
+                <div class="rev-cont">
+                    <div class="title-star">
+                        <div class="tit">
+                            <p class="lev-txt">Ronald Richards</p>
+                            <p class="gr">24 January,2023</p>
+                        </div>
+                        <div class="star">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                        </div>
+                    </div>
+                    <p class="g">This phone has 1T storage and is durable.
+                        Plus all the new iPhones have a C port! Apple is phasing out the current ones! (All about the Benjamin’s) 
+                        So if you want a phone that’s going to last grab an iPhone 14 pro max and get several cords and plugs.</p>
+                </div>
+            </div>
+            <div class="rev">
+                <div class="user">
+                    <img src="./images/User Pic (2).png">
+                </div>
+                <div class="rev-cont">
+                    <div class="title-star">
+                        <div class="tit">
+                            <p class="lev-txt">Darcy King</p>
+                            <p class="gr">24 January,2023</p>
+                        </div>
+                        <div class="star">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 1.png">
+                            <img src="./images/Star 5 (2).png">
+                        </div>
+                    </div>
+                    <p class="g">I might be the only one to say this but the camera is a little funky.
+                    Hoping it will change with a software update: otherwise,
+                    love this phone! Came in great condition</p>
+                    <div class="rev-img">
+                        <img src="./images/Review=Image1.png">
+                        <img src="./images/Review=Image2.png">
+                    </div>
+                </div>
+            </div>
+            <div class="view-btn">
+                <button class="view">view more<img src="./images/Expand_down_light.png"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="dis-head">
+            <p>Related Products</p>
+        </div>
+        <div class="row">
+            <div class="item">
+                <div class="like-div">
+                    <img class="like-img" src="./images/Like.png" onclick="changeColor(this)">
+                </div>
+                <button class="full" onclick="goToSite()">
+                    <img src="./images/Iphone 14 pro orngescreen.png">
+                    <div class="cont">
+                        <p class="text">Apple iPhone 14 Pro 512GB Gold (MQ233)</p>
+                        <p class="price">$1437</p>
+                    </div>
+                    <button class="buynow" onclick="goToSite()">Buy Now</button>
+                </button>
+            </div>
+            <div class="item">
+                <div class="like-div">
+                    <img class="like-img" src="./images/Like.png" onclick="changeColor(this)">
+                </div>
+                <button class="full" onclick="">
+                    <img src="./images/Iphone 14 pro 1 (3).png">
+                    <div class="cont">
+                        <p class="text">AirPods Max Silver
+                            Starlight Aluminium </p>
+                        <p class="price">$549</p>
+                    </div>
+                    <button class="buynow" onclick="">Buy Now</button>
+                </button>
+            </div>
+            <div class="item">
+                <div class="like-div">
+                    <img class="like-img" src="./images/Like.png" onclick="changeColor(this)">
+                </div>
+                <button class="full" onclick="">
+                    <img src="./images/Iphone 14 pro 1 (2).png">
+                    <div class="cont">
+                        <p class="text">Apple Watch Series 9 GPS 41mm Starlight Aluminium </p>
+                        <p class="price">$399</p>
+                    </div>
+                    <button class="buynow" onclick="">Buy Now</button>
+                </button>
+            </div>
+            <div class="item">
+                <div class="like-div">
+                    <img class="like-img" src="./images/Like.png" onclick="changeColor(this)">
+                </div>
+                <button class="full" onclick="">
+                    <img src="./images/Iphone 14 bluscrn.png">
+                    <div class="cont">
+                        <p class="text">Apple iPhone 14 Pro 1TB Gold (MQ2V3)</p>
+                        <p class="price">$1499</p>
+                    </div>
+                    <button class="buynow" onclick="">Buy Now</button>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="last">
+        <div class="footer">
+            <div class="first">
+                <img src="./images/Logo Vector white.png">
+                <p>
+                We are a residential interior design firm located in Portland. Our boutique-studio offers more than
+                </p>
+            </div>
+            <div class="section">
+                <div class="second">
+                    <p>Services</p>
+                    <ul>
+                    <li>Bonus program</li>
+                    <li>Gift cards</li>
+                    <li>Credit and payment</li>
+                    <li>Service contracts</li>
+                    <li>Non-cash account</li>
+                    <li>Payment</li>
+                    </ul>
+                </div>
+                <div class="second">
+                    <p>Assistance to the buyer</p>
+                    <ul>
+                    <li>Find an order</li>
+                    <li>Terms of delivery</li>
+                    <li>Exchange and return of goods</li>
+                    <li>Guarantee</li>
+                    <li>Frequently asked questions</li>
+                    <li>Terms of use of the site</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="social">
+            <img src="./images/Twitter.png">
+            <img src="./images/Facebook.png">
+            <img src="./images/Tiktok.png">
+            <img src="./images/Instagram.png">
+        </div>
+    </div>
+    
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
